@@ -38,7 +38,7 @@
   "homepage": "https://github.com/webdriverio/wdio-sync#readme",
   "dependencies": {
     "babel-runtime": "^6.26.0",
-    "fibers": "^5.0.3",
+    "fibers": "^4.0.3",
     "object.assign": "^4.0.3"
   },
   "contributors": [
