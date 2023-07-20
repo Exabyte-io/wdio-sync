@@ -17,7 +17,6 @@
     "test:unit": "mocha --compilers js:babel-core/register --colors --require should --reporter dot test/**/*.js",
     "test:cover": "babel-node ./node_modules/.bin/isparta cover --include './*.js' _mocha -- --require should",
     "prepublish": "npm prune && run-s build test",
-    "postinstall": "npm run compile",
     "watch": "npm run compile -- --watch"
   },
   "repository": {
@@ -43,15 +42,7 @@
   "homepage": "https://github.com/webdriverio/wdio-sync#readme",
   "dependencies": {
     "babel-runtime": "^6.26.0",
-    "object.assign": "^4.0.3",
-    "babel-cli": "^6.24.0",
-    "babel-core": "^6.26.3",
-    "babel-eslint": "^8.0.0",
-    "babel-plugin-add-module-exports": "^0.2.1",
-    "babel-plugin-rewire": "^1.1.0",
-    "babel-plugin-transform-runtime": "^6.23.0",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-stage-0": "^6.22.0",
+    "object.assign": "^4.0.3"
   },
   "contributors": [
     "George Crawford <george.crawford@ft.com>",
