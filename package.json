@@ -43,7 +43,15 @@
   "homepage": "https://github.com/webdriverio/wdio-sync#readme",
   "dependencies": {
     "babel-runtime": "^6.26.0",
-    "object.assign": "^4.0.3"
+    "object.assign": "^4.0.3",
+    "babel-cli": "^6.24.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.0.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-rewire": "^1.1.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.22.0",
   },
   "contributors": [
     "George Crawford <george.crawford@ft.com>",
