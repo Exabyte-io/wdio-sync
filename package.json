@@ -30,6 +30,10 @@
     "sync",
     "wdio-plugin"
   ],
+  "files": [
+    "index.js",
+    ".babelrc"
+  ],
   "author": "Christian Bromann <christian@saucelabs.com>",
   "license": "MIT",
   "bugs": {
